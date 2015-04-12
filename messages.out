@@ -1,0 +1,13 @@
+
+Sat Apr 11 21:57:36 2015
+Patient Check-In Request -- Name: jerry Specialty: PSY Age: 788
+Sorry, there is no doctor available
+
+Sat Apr 11 21:57:59 2015
+Doctor Check-In Request -- Name: Jerry Specialty: PSY Room: 11
+Doctor Jerry(PSY) Check-In to Room 11
+
+Sat Apr 11 21:58:24 2015
+Patient Check-In Request -- Name: Rod Specialty: FAM Age: 4
+Patient Check-In Succeeded, Room 11 Doctor Jerry
+
