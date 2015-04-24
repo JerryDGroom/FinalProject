@@ -1,7 +1,7 @@
 #ifndef ExamRoom_H
 #define ExamRoom_H
 /*
-ExamRoom class contains the information of current doctor and
+ExamRoom class contains the information of current doctor and 
   patient waiting list
 */
 
@@ -21,7 +21,7 @@ public:
 	// Return current patient
 	Patient* getPatient();
 
-	// Get the length waiting list
+	// Get the length waitng list
 	int getWaitingLen();
 
 	// doctor enters this room

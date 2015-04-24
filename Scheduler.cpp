@@ -1,5 +1,7 @@
-#define _CRT_SECURE_NO_WARNINGS
 
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
 #include "Scheduler.h"
 
 Scheduler::Scheduler()
@@ -72,11 +74,12 @@ bool Scheduler::isValidCode(string code)
 {
 	int i;
 	string all[] = {
-		"PED", "FAM", "INT", "CAR", "SUR",
-		"OBS", "PSY", "NEU", "ORT", "DET",
-		"OPT", "ENT"
+		"PED", "ped", "FAM", "fam", "INT", "int",
+		"CAR", "car", "SUR", "sur", "OBS", "obs",
+		"PSY", "psy", "NEU", "neu", "ORT", "ort",
+		"DET", "det", "OPT", "opt", "ENT", "ent"
 	};
-	for (i = 0; i < 12; i++)
+	for (i = 0; i < 24; i++)
 	{
 		if (all[i] == code)
 			return true;
@@ -84,7 +87,7 @@ bool Scheduler::isValidCode(string code)
 
 	cout << "Error: Invalid specialty." << endl;
 	cout << "Valid code: ";
-	for (i = 0; i < 12; i++)
+	for (i = 0; i < 24; i++)
 		cout << all[i] << " ";
 	cout << endl << endl;
 
@@ -174,7 +177,7 @@ void Scheduler::checkOutDoctor(string name)
 		}
 		else
 		{
-			cout << "Assigned to Room " << newnum
+ 			cout << "Assigned to Room " << newnum
 				<< " Doctor " << rooms[newnum - 1].getDoctor()->getName() << endl;
 			file << "Assigned to Room " << num
 				<< " Doctor " << rooms[newnum - 1].getDoctor()->getName() << endl;

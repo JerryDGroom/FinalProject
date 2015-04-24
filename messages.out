@@ -1,13 +1,63 @@
 
-Sat Apr 11 21:57:36 2015
-Patient Check-In Request -- Name: jerry Specialty: PSY Age: 788
-Sorry, there is no doctor available
+Fri Apr 24 12:09:34 2015
+Doctor Check-In Request -- Name: TOM Specialty: INT Room: 11
+Doctor TOM(INT) Check-In to Room 11
 
-Sat Apr 11 21:57:59 2015
-Doctor Check-In Request -- Name: Jerry Specialty: PSY Room: 11
-Doctor Jerry(PSY) Check-In to Room 11
+Fri Apr 24 12:09:34 2015
+Doctor Check-In Request -- Name: ROBERT Specialty: CAR Room: 11
+Error: Room is used.
 
-Sat Apr 11 21:58:24 2015
-Patient Check-In Request -- Name: Rod Specialty: FAM Age: 4
-Patient Check-In Succeeded, Room 11 Doctor Jerry
+Fri Apr 24 12:09:34 2015
+Doctor Check-In Request -- Name: NANCY Specialty: PED Room: 15
+Doctor NANCY(PED) Check-In to Room 15
+
+Fri Apr 24 12:09:34 2015
+Doctor Check-In Request -- Name: MARK Specialty: FAM Room: 20
+Doctor MARK(FAM) Check-In to Room 20
+
+Fri Apr 24 12:09:34 2015
+Patient Check-In Request -- Name: SEAN Specialty: ENT Age: 14
+Patient Check-In Succeeded, Room 15 Doctor NANCY
+
+Fri Apr 24 12:09:34 2015
+Patient Check-In Request -- Name: ALEX Specialty: SUR Age: 19
+Patient Check-In Succeeded, Room 20 Doctor MARK
+
+Fri Apr 24 12:09:34 2015
+Patient Check-In Request -- Name: SARAH Specialty: NEU Age: 20
+Patient Check-In Succeeded, Room 20 Doctor MARK
+
+Fri Apr 24 12:09:34 2015
+Patient Check-In Request -- Name: MARY Specialty: INT Age: 20
+Patient Check-In Succeeded, Room 11 Doctor TOM
+
+Fri Apr 24 12:09:34 2015
+Patient Check-In Request -- Name: JOHN Specialty: INT Age: 25
+Patient Check-In Succeeded, Room 11 Doctor TOM
+
+Fri Apr 24 12:09:34 2015
+Patient Check-Out Request -- Name: ALEX Room: 20
+Patient ALEX Check-Out. Good-bye
+Next Patient in the room is SARAH
+
+Fri Apr 24 12:09:35 2015
+Patient Check-Out Request -- Name: SARAH Room: 20
+Patient SARAH Check-Out. Good-bye
+
+Fri Apr 24 12:09:35 2015
+Doctor Check-Out Request -- Name: MARK
+Doctor MARK Check-Out. Good-bye
+
+Fri Apr 24 12:09:35 2015
+Doctor Check-Out Request -- Name: TOM
+Doctor TOM Check-Out. Good-bye
+Try to reassign patient MARY: Assigned to Room 11 Doctor NANCY
+Try to reassign patient JOHN: Assigned to Room 11 Doctor NANCY
+
+Fri Apr 24 12:09:35 2015
+Doctor Check-Out Request -- Name: NANCY
+Doctor NANCY Check-Out. Good-bye
+Try to reassign patient SEAN: Sorry, there is no doctor avaiable
+Try to reassign patient MARY: Sorry, there is no doctor avaiable
+Try to reassign patient JOHN: Sorry, there is no doctor avaiable
 

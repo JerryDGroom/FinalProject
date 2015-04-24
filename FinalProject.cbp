@@ -32,7 +32,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="Doctor.cpp" />
+		<Unit filename="Doctor.h" />
+		<Unit filename="ExamRoom.cpp" />
+		<Unit filename="ExamRoom.h" />
+		<Unit filename="Patient.cpp" />
+		<Unit filename="Patient.h" />
+		<Unit filename="ProjectTest.cpp" />
+		<Unit filename="Scheduler.cpp" />
+		<Unit filename="Scheduler.h" />
+		<Unit filename="messages.out" />
 		<Extensions>
 			<code_completion />
 			<envvars />
