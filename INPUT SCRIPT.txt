@@ -1,3 +1,14 @@
+=======================================================================================
+/*
+Copy the below set of characters and strings, then paste into the program
+in order to run through the test procedure provided.
+
+This allows for a quicker way to prove the test scenarios, instead of typing
+each one by hand.
+*/
+=======================================================================================
+
+R
 D
 I
 TOM
@@ -60,4 +71,9 @@ TOM
 D
 O
 NANCY
+Q
+Q
+H
 
+
+=======================================================================================

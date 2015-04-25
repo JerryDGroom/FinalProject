@@ -1,6 +1,11 @@
+/*
+*******************************************************************
+Final Project || Jerry Groom                          Scheduler.cpp
+4/29/2015
+*******************************************************************
+*/
 
 
-#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include "Scheduler.h"
 
