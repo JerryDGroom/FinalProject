@@ -36,11 +36,12 @@
 		<Unit filename="Doctor.h" />
 		<Unit filename="ExamRoom.cpp" />
 		<Unit filename="ExamRoom.h" />
+		<Unit filename="INPUT SCRIPT.txt" />
 		<Unit filename="Patient.cpp" />
 		<Unit filename="Patient.h" />
-		<Unit filename="ProjectTest.cpp" />
 		<Unit filename="Scheduler.cpp" />
 		<Unit filename="Scheduler.h" />
+		<Unit filename="TestProject.cpp" />
 		<Unit filename="messages.out" />
 		<Extensions>
 			<code_completion />
